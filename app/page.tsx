@@ -2,6 +2,7 @@ import Banner from "@/components/Corporate/Banner"
 import Fortune from "@/components/Corporate/Fortune"
 import BenefitsSection from "@/components/Corporate/benefits"
 import FlowChart from "@/components/Corporate/flowchart"
+import ForIndia from "@/components/ForIndia"
 import Companies from "@/components/companies"
 import Partners from "@/components/partners"
 import Testimonials from "@/components/testimonials"
@@ -13,6 +14,7 @@ const Corporate = () => {
       <FlowChart />
       <BenefitsSection />
       <Fortune />
+      <ForIndia />
       <Companies />
       <Testimonials />
       <Partners />

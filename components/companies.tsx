@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Companies = () => {
     return (
-        <section className='max-w-8xl w-full mx-auto' >
+        <section className='max-w-full px-20 w-full mx-auto' >
             <div className='mb-20'>
                 <h1 className='text-center text-4xl text-gold-400 font-semibold mb-2'>Join Thousands of Indian Companies on Value1</h1>
                 <p className='text-center text-2xl text-white/70'>Supported by India's Leading Brands and Employers</p>
