@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Savings from "@/public/images/svgs/savings.svg"
 
-import { data } from "@/context/data"
-import BenefitCard from "./ui/BenefitCard"
+import { cardData as data } from "@/context/data"
+import BenefitCard from "../ui/BenefitCard"
 
 const StandOut = () => {
     return (

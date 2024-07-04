@@ -98,3 +98,132 @@ export const ClientLove = [
         content: "Join leading organizations worldwide in transforming employee benefits and engagement. Discover why our clients choose us for our unparalleled service and innovative solutions.",
     },
 ]
+
+export const cardData = [
+    {
+        title: "Exclusive Pricing and Gold Rewards",
+        image: "/images/svgs/savings.svg",
+        description: "Experience unique pricing and gold rewards across online shopping, travel, ticketing, financial services, health, value brands & professionals. Recycle expenses into gold rewards and shareholding"
+    },
+    {
+        title: "Extensive Partner Network",
+        image: "/images/svgs/savings.svg",
+        description: "Collaborate with India’s top brands and employers, including Ease My Trip, Upstox, Angel One, Ruloan, and Vizza Insurance"
+    },
+    {
+        title: "Support from Esteemed Institutions",
+        image: "/images/svgs/savings.svg",
+        description: "Benefit from the support of MeitY, Startup India, Anna Incubator, and more, ensuring a robust ecosystem for co-ownership"
+    },
+    {
+        title: "Employee Savings Program",
+        image: "/images/svgs/savings.svg",
+        description: "Help employees save up to 40% on their expenses, transforming everyday spending into valuable gold rewards"
+    },
+    {
+        title: "Zero Cost to Employers",
+        image: "/images/svgs/savings.svg",
+        description: "Implement Value1’s programs at no additional cost, providing maximum benefit with minimal investment"
+    },
+];
+
+export const brand = [
+    {
+        title: "Tata 1MG",
+        price: 999,
+        content: "16.80%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/335153/1mg-logo-400x200-png.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/394161/eyemyeye-logo.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/69387/2Q%3D%3D"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/397026/kapiva--400x200-png.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/341759/amazon-.in-logo-400-x-200.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/393546/setu-logo.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/341759/amazon-.in-logo-400-x-200.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/393546/setu-logo.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/341759/amazon-.in-logo-400-x-200.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/393546/setu-logo.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/341759/amazon-.in-logo-400-x-200.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/393546/setu-logo.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/341759/amazon-.in-logo-400-x-200.png"
+    },
+    {
+        title: "EYE MY EYE",
+        price: 999,
+        content: "15.25%",
+        rating: 4.5,
+        imageUrl: "https://inrdeals.sgp1.cdn.digitaloceanspaces.com/production/393546/setu-logo.png"
+    },
+];

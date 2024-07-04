@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { EmployeeLove as data } from '@/context/data'
-import MiniCard from './ui/minicard'
+import MiniCard from '../ui/minicard'
 
 const EmployeeLove = () => {
     return (

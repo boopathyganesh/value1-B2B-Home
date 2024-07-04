@@ -5,7 +5,11 @@ const nextConfig = {
             {
                 hostname:"www.benefithub.com",
                 protocol:"https"
-            }
+            },
+            {
+                hostname:"inrdeals.sgp1.cdn.digitaloceanspaces.com",
+                protocol:"https"
+            },
         ]
     }
 };

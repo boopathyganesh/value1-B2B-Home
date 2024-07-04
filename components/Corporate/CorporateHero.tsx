@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
     return (
-        <section className='max-w-7xl w-full flex items-center justify-center gap-10 mt-10 p-10 text-white'>
+        <section className='max-w-8xl w-full flex items-center justify-center gap-10 mt-10 p-10 text-white'>
             <div className='w-[500px] flex flex-col items-start justify-center gap-10'>
                 <div className='flex flex-col items-start justify-center'>
                     <h1 className='text-5xl font-semibold tracking-wide leading-tight mb-5 text-gold-400'>Why Choose Value1?</h1>
@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className='w-full'>
                     <Accordion type="single" collapsible className="w-full" defaultValue='item-1'>
                         <AccordionItem value="item-1">
-                            <AccordionTrigger><div>Empowering <span className='text-gold-400'>India's Workforce</span></div></AccordionTrigger>
+                            <AccordionTrigger><div>Empowering <span className='text-gold-400'>India&apos;s Workforce</span></div></AccordionTrigger>
                             <AccordionContent>
                                 Provide exclusive perks to your employees across India with a single employee discounts and
                                 rewards platform.
@@ -47,9 +47,10 @@ const Hero = () => {
                     </Accordion>
                 </div>
             </div>
-            <div className='w-1/2 flex item-center justify-center'>
-                <Image src={'https://www.benefithub.com/hs-fs/hubfs/BH-Why%20BenefitHub/BH21-Why-BenefitHub-Hero.webp?width=750&name=BH21-Why-BenefitHub-Hero.webp'} height={500} width={500} alt={''} />
+            <div className='w-1/2 h-[500px] flex item-center justify-center bg-[url("/images/corporate_banner1.png")] bg-cover bg-no-repeat bg-top'>
+                {/* <Image src={'/images/corporate_banner1.png'} height={500} width={500} alt={''} className='w-full h-auto ' /> */}
             </div>
+            
         </section>
     )
 }
