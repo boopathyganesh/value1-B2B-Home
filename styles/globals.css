@@ -8,7 +8,7 @@
 }
 
 .nav-items ul li{
-  @apply text-base hover:text-gold-300 hover:scale-105 smooth
+  @apply text-base hover:text-gold-300 hover:scale-105 hover:font-medium smooth
 }
 
 .banner::before{
@@ -45,4 +45,46 @@
     border: double 80px transparent;
     background-color: #fff;
     opacity: 0.1;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes waveX {
+  0%, 100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+}
+  50% {
+    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
+  75% {
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+}
 }

@@ -40,6 +40,8 @@ const config = {
         'jello-vertical': 'jello-vertical 3s both infinite',
         'wobble-right': 'wobble-ver-right 3s both infinite',
         "caret-blink": "caret-blink 1.25s ease-out infinite",
+        "wave": "wave 10s ease-in-out infinite",
+        "waveX": "waveX 10s ease-in-out infinite"
       },
       colors: {
         gold:{
